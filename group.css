@@ -1,0 +1,48 @@
+body {
+    background-image: url("/images/group.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+li{
+    font-family: 'Alkatra', cursive;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    text-align: center;
+    /* margin-left: 1rem; */
+    font-size: large;
+    background-color: #d4eb0c;
+    
+}
+li:hover{
+    cursor: pointer;
+    background-color: rgb(196, 196, 7);
+}
+#space {
+    height: 3vh;
+}
+#heading{
+    font-family: 'Merriweather Sans', sans-serif;
+    color: orange;
+    background: #fffefe;
+
+}
+.scroll-div{
+    /* height: 30vh;
+    width:20vw; */
+    height: 10rem;
+    width:20rem;
+    overflow: hidden;
+    overflow-y:scroll;
+    border: 3px solid rgb(255, 255, 255);
+}
+#card{
+    background-color: #ffffff;
+}
+.grp{
+    background-color: #ffffff;
+    text-shadow: #ffffff;
+    border: 1px solid rgb(20, 100, 23);
+    border-radius:10px ;
+}

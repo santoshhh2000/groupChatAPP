@@ -1,0 +1,86 @@
+
+    body{
+      background-image: url("/images/Robot.jpg");
+       background-size: cover;
+     background-repeat: no-repeat; 
+    background-attachment: fixed;
+    }  
+    #textArea {
+      border-radius: 20px;
+      height:3rem;
+      width:20rem;
+    }
+
+    #input {
+      margin-top: 7vh;
+    }
+
+    #box {
+      height: 70vh;
+    }
+    .scroll{
+      height: 10rem;
+      width: 20rem;
+      overflow: hidden;
+      overflow-y: scroll;
+      border: 2px solid black;
+      border-radius: 10px;
+
+
+    }
+
+    .scroll-div {
+      background-image: url("/images/chatbox.jpg");
+      height: 30vh;
+      width: 35rem;
+      overflow: hidden;
+      overflow-y: scroll;
+      border: 3px solid gray;
+      border-radius: 15px;
+    
+    }
+
+    #Groupchatheading {
+      font-family: 'Merriweather Sans', sans-serif;
+      color: orange;
+      background: #fefefe;
+
+    }
+    #chatbox{
+      font-family: 'Merriweather Sans', sans-serif;
+      color: rgb(247, 243, 240);
+      background: #01061859;
+      border-radius: 10px;
+
+
+    }
+    #row{
+      border-radius: 14px;
+    }
+
+
+
+    .message{
+      background-color: rgb(255, 255, 255);
+      width:30%;
+      padding:10px;
+      margin: 5px 5px;
+      border:4px solid rgb(255, 254, 255);
+      border-radius: 10px;
+
+    }
+    .left{
+      float: left;
+      clear:both;
+
+    }
+    .right{
+      float: right;
+      clear:both;
+
+    }
+    .members{
+      background-color: rgb(247, 247, 247);
+      border: 3px solid rgb(255, 255, 255);
+      border-radius: 10px;
+    }
